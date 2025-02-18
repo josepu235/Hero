@@ -1,0 +1,66 @@
+#about {
+    padding: 3rem 2rem;
+  }
+  .section__text__p1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem; 
+    margin-top: 0;
+    position: relative;
+    top: -20px;
+  }
+  .section-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem; 
+  }
+  
+  .about-details-container {
+    flex: 1; 
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .about-pic {
+    border-radius: 2rem;
+    width: 100%;
+    max-width: 400px; 
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .section__pic-container {
+    flex: 1;
+    text-align: center; 
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: black;
+  }
+  
+  @media (max-width: 768px) {
+    .section-container {
+      flex-direction: column; 
+      align-items: center;
+      gap: 2rem;
+    }
+  
+    .section__pic-container {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+    }
+  
+    .about-details-container {
+      text-align: center;
+    }
+  }
