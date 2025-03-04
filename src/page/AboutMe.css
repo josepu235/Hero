@@ -48,13 +48,13 @@
   }
   @media (max-width: 768px) {
     .section-container {
-        flex-direction: column-reverse; /* Moves .about-pic above the text */
+        flex-direction: column-reverse;
         align-items: center;
         gap: 2rem;
     }
 
     .section__text__p1 {
-      font-size: 1.3rem;  /* Slightly reduce size for small screens */
+      font-size: 1.3rem;
       margin-bottom: 1rem; 
       text-align: center;
   }
