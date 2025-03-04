@@ -6,8 +6,8 @@
     font-size: 1.5rem;
     margin-bottom: 1rem; 
     margin-top: 0;
-    position: relative;
-    top: -20px;
+    position: static;
+    top: 0;
   }
   .section-container {
     display: flex;
@@ -46,21 +46,26 @@
     line-height: 1.5;
     color: black;
   }
-  
   @media (max-width: 768px) {
     .section-container {
-      flex-direction: column; 
-      align-items: center;
-      gap: 2rem;
+        flex-direction: column-reverse; /* Moves .about-pic above the text */
+        align-items: center;
+        gap: 2rem;
     }
-  
-    .section__pic-container {
-      width: 100%;
-      max-width: 300px;
-      height: auto;
-    }
-  
-    .about-details-container {
+
+    .section__text__p1 {
+      font-size: 1.3rem;  /* Slightly reduce size for small screens */
+      margin-bottom: 1rem; 
       text-align: center;
-    }
   }
+
+    .section__pic-container {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .about-details-container {
+        text-align: center;
+    }
+}

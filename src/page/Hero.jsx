@@ -22,9 +22,9 @@ function Hero() {
           <img src={pp} alt="Josef profile picture" />
         </div>
         <div className="Hero-text">
-          <h2 className="Hero-intro">Hello, I'm</h2>
-          <h1 className="Hero-name">Josef Nathan Sogradiel</h1>
-          <h1 className='title'>A Student and a Developer</h1>
+          <h2 className="Hero-intro typing">Hello, I'm</h2>
+          <h1 className="Hero-name typing delay-1">Josef Nathan Sogradiel</h1>
+          <h1 className='title typing delay-2'>A Student and a Developer</h1>
 
         </div>
       </section>
